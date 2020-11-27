@@ -1,0 +1,95 @@
+7878
+41
+2c
+140b0c0c0900
+0194
+61
+19ca
+00d37f
+29
+19ca
+00d37e
+21
+19ca
+0014ad
+20
+19ca
+003b0a
+1a
+19ca
+00d37d
+18
+19ca
+001645
+17
+19ca
+008c33
+14
+ff
+01
+dc9fdb04360e
+3b
+003dbe820d0a
+
+
+
+Server is starting..
+Server is running on: 0.0.0.0
+Number of active connection 5
+New connection : [('27.63.186.85', 25873)]
+PACKET: [b"xx\x11\x01\x03U\x08p\x930'\x826\x00!!\x00\n\x18\xdc\r\n"]
+Length of the packet recieved: 22
+['7878', '11', '01', '0355087093302782', '3600', '2121', '000a', '18dc', '0d0a']
+787805010001d9dc0D0A
+response of login sent
+78780b23800172040002000be01d0d0a
+16
+['7878', '0b', '23', '80', '0172', '04', '0002', '000b', 'e01d', '0d0a']
+787805230002eb470d0a
+response of heart beat sent
+
+
+
+
+Server is starting..
+Server is running on: 0.0.0.0
+Number of active connection 5
+New connection : [('106.223.148.186', 31922)]
+PACKET: [b"xx\x11\x01\x03U\x08p\x930'\x826\x00!!\x00\x1b\x19\xd4\r\n"]
+Length of the packet recieved: 22
+['7878', '11', '01', '0355087093302782', '3600', '2121', '001b', '19d4', '0d0a']
+787805010001d9dc0D0A
+message sent
+b'xx\x0b#\x80\x01t\x04\x00\x02\x00\x1c\x9c\xd9\r\n'
+b"xx\x11\x01\x03U\x08p\x930'\x826\x00!!\x00\x1d|\xe2\r\n"
+b"xx\x11\x01\x03U\x08p\x930'\x826\x00!!\x00\x1eNy\r\n"
+Server is starting..
+Server is running on: 0.0.0.0
+Number of active connection 5
+New connection : [('27.63.170.79', 44802)]
+PACKET: [b"xx\x11\x01\x03U\x08p\x930'\x826\x00!!\x00\x00\xb7\x86\r\n"]
+Length of the packet recieved: 22
+['7878', '11', '01', '0355087093302782', '3600', '2121', '0000', 'b786', '0d0a']
+787805010001d9dc0D0A
+message sent
+7878058a0002ce0d0d0a
+78780b238001710300020004244b0d0a
+79790020940a035508709330278204049759982953338991000902816928096f0003f12a0d0a
+Server is starting..
+Server is running on: 0.0.0.0
+Number of active connection 5
+New connection : [('106.223.212.164', 20194)]
+PACKET: [b"xx\x11\x01\x03U\x08p\x930'\x826\x00!!\x00\x05\xe0+\r\n"]
+Length of the packet recieved: 22
+['7878', '11', '01', '0355087093302782', '3600', '2121', '0005', 'e02b', '0d0a']
+787805010001d9dc0D0A
+message sent
+16
+78780b2380017204000200063bf80d0a
+['7878', '0b', '23', '80', '0172', '04', '0002', '0006', '3bf8', '0d0a']
+16
+78781101035508709330278236002121
+['7878', '11', '01', '0355087093302782', '3600']
+6
+0007c3390d0a
+['0007', 'c3', '39']

@@ -1,0 +1,89 @@
+Server is starting..
+Server is running on: 0.0.0.0
+Number of active connection 5
+New connection : [('27.63.138.82', 53233)]
+
+PACKET: [b"xx\x11\x01\x03U\x08p\x930'\x826\x00!!\x00\x1cmk\r\nxx\x11\x01\x03U\x08p\x930'\x826\x00!!\x00"]
+Length of the packet recieved: 39
+['7878', '11', '01', '0355087093302782', '3600', '2121', '001c', '6d6b', '0d0a']
+787805010001d9dc0D0A
+response of login sent
+
+PACKET: [b"\x1d|\xe2\r\nxx\x11\x01\x03U\x08p\x930'\x826\x00!!\x00\x1eNy\r\nxx\x11\x01\x03U\x08p\x930'\x82"]
+Length of the packet recieved: 39
+
+PACKET: [b'6\x00!!\x00\x1f_\xf0\r\n']
+Length of the packet recieved: 10
+
+PACKET: [b'xx\x05\x8a\x00 \xcc\x1d\r\n']
+Length of the packet recieved: 10
+
+PACKET: [b"yy\x00 \x94\n\x03U\x08p\x930'\x82\x04\x04\x97Y\x98)S3\x89\x91\x00\t\x02\x81i(\to\x00!\xf3:\r\n"]
+Length of the packet recieved: 38
+
+PACKET: [b'xx\x0b#\x80\x01t\x04\x00\x02\x00"D$\r\n']
+Length of the packet recieved: 16
+78780b23800174040002002244240d0a
+['7878', '0b', '23', '80', '0174', '04', '0002', '0022', '4424', '0d0a']
+787805010001d9dc0d0a
+response of heart beat sent
+
+PACKET: [b'xx""\x14\x0b\x0c\x0b*.\xc6\x02\xeb\x9f@\x08\\0\x90\x01\x14\xec\x01\x94a\x19\xca\x00\xd3\x7f\x00\x00\x01\x00T\x1c\xfe\r\n']
+Length of the packet recieved: 39
+b'xx""\x14\x0b\x0c\x0b*.\xc6\x02\xeb\x9f@\x08\\0\x90\x01\x14\xec\x01\x94a\x19\xca\x00\xd3\x7f\x00\x00\x01\x00T\x1c\xfe\r\n'
+
+PACKET: [b'xx\x0b#\x80\x01t\x04\x00\x02\x00#U\xad\r\n']
+Length of the packet recieved: 16
+78780b23800174040002002355ad0d0a
+['7878', '0b', '23', '80', '0174', '04', '0002', '0023', '55ad', '0d0a']
+7878052300025dc40d0a
+response of heart beat sent
+
+PACKET: [b'xx\x0b#\x80\x01s\x04\x00\x02\x00$=\xc3\r\n']
+Length of the packet recieved: 16
+78780b2380017304000200243dc30d0a
+['7878', '0b', '23', '80', '0173', '04', '0002', '0024', '3dc3', '0d0a']
+7878052300034c4d0d0a
+response of heart beat sent
+
+PACKET: [b'yy\x00\x95\x94\x04ALM1=55;ALM2=C5;ALM3=57;ALM4=E6;S']
+Length of the packet recieved: 39
+
+PACKET: [b'TA1=40;DYD=01;SOS=00919760348882,,;CENT']
+Length of the packet recieved: 39
+
+PACKET: [b'ER=;FENCE=Fence,OFF,0,0.000000,0.000000']
+Length of the packet recieved: 39
+
+PACKET: [b',300,IN or OUT,1;MODE=MODE:2,10;\x00%m(\r\n']
+Length of the packet recieved: 38
+
+PACKET: [b'xx\x0b#\x80\x01t\x04\x00\x02\x00&\x02\x00\r\n']
+Length of the packet recieved: 16
+78780b23800174040002002602000d0a
+['7878', '0b', '23', '80', '0174', '04', '0002', '0026', '0200', '0d0a']
+1234
+response of heart beat sent
+
+PACKET: [b"xx\x0b#\x80\x01t\x04\x00\x02\x00'\x13\x89\r\n"]
+Length of the packet recieved: 16
+78780b23800174040002002713890d0a
+['7878', '0b', '23', '80', '0174', '04', '0002', '0027', '1389', '0d0a']
+787805230005297b0d0a
+response of heart beat sent
+
+PACKET: [b'xx\x0b#\x80\x01t\x04\x00\x02\x00(\xeb~\r\n']
+Length of the packet recieved: 16
+78780b238001740400020028eb7e0d0a
+['7878', '0b', '23', '80', '0174', '04', '0002', '0028', 'eb7e', '0d0a']
+7878052300061be00d0a
+response of heart beat sent
+
+PACKET: [b'xx""\x14\x0b\x0c\x0b*.\xc6\x02\xeb\x9f@\x08\\0\x90\x01\x14\xec\x01\x94a\x19\xca\x00\xd3\x7f\x00\x00\x01\x00)\xb4\x9c\r\n']
+Length of the packet recieved: 39
+b'xx""\x14\x0b\x0c\x0b*.\xc6\x02\xeb\x9f@\x08\\0\x90\x01\x14\xec\x01\x94a\x19\xca\x00\xd3\x7f\x00\x00\x01\x00)\xb4\x9c\r\n'
+
+PACKET: [b'xx\x0b#\x80\x01r\x04\x00\x02\x00*\xd0\x96\r\n']
+Length of the packet recieved: 16
+78780b23800172040002002ad0960d0a
+['7878', '0b', '23', '80', '0172', '04', '0002', '002a', 'd096', '0d0a']

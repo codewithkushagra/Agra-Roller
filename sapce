@@ -1,0 +1,15 @@
+if b[len(b)-2]==final_crc:
+          return_crc=""
+          for cp in hex(libscrc.x25(bytes.fromhex("0501"+b[len(b)-3]))):
+               if nu>1:
+                   return_crc=return_crc+cp
+               nu+=1
+          res_packet="78780501"+b[len(b)-3]+return_crc+"0d0a"
+          print(res_packet)
+     
+          #res_packet=bytes.fromhex(res_packet)
+          #print(res_packet)
+     else:
+          res_packet="incomplete message"
+          res_packet=bytes.fromhex(res_packet)
+          
