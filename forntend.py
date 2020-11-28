@@ -1,17 +1,12 @@
 import tkinter
 from tkinter import *
-import mysql.connector
+import Data_Base
 from tkinter.ttk import *
 from PIL import ImageTk, Image 
 import time
 from tkinter.constants import *
 from tkinter import messagebox
 import os
-import Data_Base
-
-db=mysql.connector.connect(host="localhost",user="agraroller",passwd="root12345678",database="agraroller_database")
-
-cursor=db.cursor()
 
 tk = tkinter.Tk()
 tk.title("Agar Roller GPS Tracker")
@@ -51,36 +46,36 @@ def show(frame,runt):
     else:
         run.set("0")
     return
-
+    return
 imei=StringVar()
 
-def gpstack():    
-
+def gpstack():
     if run.get()=="1":
-        #refresh=tkinter.Button(frame_GSP,text="Refresh",command=lambda :show(frame_GSP,True),font="Times 10")
-        #refresh.pack()
-        #refresh.place(x=0,y=0)
-        xc=140257994
-        yc=48995866
+        refresh=tkinter.Button(frame_GSP,text="Refresh",command=lambda :show(frame_GSP,True),font="Times 10")
+        refresh.pack()
+        refresh.place(x=0,y=0)
         gps_data=Data_Base.getLastdata_location_data()
-        print(gps_data)
         for i in gps_data:
             yc=i[2]
             xc=i[3]
-        qbit1=tkinter.Label(frame_GSP,text="A")
-        qbit1.pack()
-        qbit1.place(x=950,y=590)
-        qbit2=tkinter.Label(frame_GSP,text="D")
-        qbit2.pack()
-        qbit2.place(x=560,y=590)
-        qbit3=tkinter.Label(frame_GSP,text="C")
-        qbit3.pack()
-        qbit3.place(x=560,y=5)
-        qbit4=tkinter.Label(frame_GSP,text="B")
-        qbit4.pack()
-        qbit4.place(x=950,y=5)
+        print(yc)
+        print(xc)
+        print("")
+        #qbit1=tkinter.Label(frame_GSP,text="A")
+        #qbit1.pack()
+        #qbit1.place(x=950,y=590)
+        #qbit2=tkinter.Label(frame_GSP,text="D")
+        #qbit2.pack()
+        #qbit2.place(x=560,y=590)
+        #qbit3=tkinter.Label(frame_GSP,text="C")
+        #qbit3.pack()
+        #qbit3.place(x=560,y=5)
+        #qbit4=tkinter.Label(frame_GSP,text="B")
+        #qbit4.pack()
+        #qbit4.place(x=950,y=5)
         #27.219926039489113, 77.92110778739176
         #xc=140257994
+            #27.219201117424834, 77.92118799616959
         #yc=48995866
         xc=xc-140257218
         yc=48997375-yc
@@ -92,7 +87,6 @@ def gpstack():
         qbit1.pack()
         qbit1.place(x=xc,y=yc)
         # qbit1.destroy()
-        time.sleep(1)
         
     return
 
@@ -153,5 +147,4 @@ def allotlist():
 
 
 allotlist()
-gpstack()
 tk.mainloop()
