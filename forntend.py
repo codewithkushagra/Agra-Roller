@@ -38,6 +38,8 @@ allote.grid(row=0,column=0,padx=275)
 gps=tkinter.Button(frame_button,text="GPS",width=30,height=5,command=lambda :show(frame_GSP,True),font="Times 10")
 gps.grid(row=0,column=1,padx=275)
 
+
+
 def show(frame,runt):  
     frame.tkraise()
     if runt:
@@ -51,9 +53,9 @@ imei=StringVar()
 
 def gpstack():
     if run.get()=="1":
-        refresh=tkinter.Button(frame_GSP,text="Refresh",command=lambda :show(frame_GSP,True),font="Times 10")
-        refresh.pack()
-        refresh.place(x=0,y=0)
+        #refresh=tkinter.Button(frame_GSP,text="Refresh",command=lambda :show(frame_GSP,True),font="Times 10")
+        #refresh.pack()
+        #refresh.place(x=0,y=0)
         gps_data=Data_Base.getLastdata_location_data()
         for i in gps_data:
             yc=i[2]
@@ -87,6 +89,7 @@ def gpstack():
         qbit1.pack()
         qbit1.place(x=xc,y=yc)
         # qbit1.destroy()
+        frame_GSP.after(100,gpstack)
         
     return
 
