@@ -48,7 +48,7 @@ def show(frame,runt):
     else:
         run.set("0")
     return
-    return
+    
 imei=StringVar()
 
 def gpstack():
